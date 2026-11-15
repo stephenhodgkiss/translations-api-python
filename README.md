@@ -20,11 +20,17 @@ Python client for the Translations API - Multi-language translation management w
 pip install translations-api
 ```
 
+> Not yet on PyPI? Install straight from GitHub until it is listed:
+>
+> ```bash
+> pip install git+https://github.com/stephenhodgkiss/translations-api-python.git
+> ```
+
 Or install from source:
 
 ```bash
-git clone https://github.com/translationsapi/sdk-python.git
-cd sdk-python
+git clone https://github.com/stephenhodgkiss/translations-api-python.git
+cd translations-api-python
 pip install -e .
 ```
 
@@ -279,6 +285,6 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-- Documentation: https://docs.translationsapi.com
-- GitHub Issues: https://github.com/translationsapi/sdk-python/issues
+- Documentation: https://translationsapi.com/documentation.html
+- GitHub Issues: https://github.com/stephenhodgkiss/translations-api-python/issues
 - Email: support@translationsapi.com

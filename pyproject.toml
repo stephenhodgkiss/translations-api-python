@@ -39,9 +39,9 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://translationsapi.com"
-Documentation = "https://github.com/translationsapi/sdk-python"
-Repository = "https://github.com/translationsapi/sdk-python"
-Issues = "https://github.com/translationsapi/sdk-python/issues"
+Documentation = "https://translationsapi.com/documentation.html"
+Repository = "https://github.com/stephenhodgkiss/translations-api-python"
+Issues = "https://github.com/stephenhodgkiss/translations-api-python/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
