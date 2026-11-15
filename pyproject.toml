@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "translations-api"
+version = "1.0.0"
+description = "Python client for Translations API - Multi-language translation management with DeepL integration"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Translations API", email = "support@translationsapi.com"}
+]
+keywords = [
+    "translation",
+    "i18n",
+    "localization",
+    "deepl",
+    "api",
+    "multi-language"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Internationalization",
+]
+dependencies = [
+    "httpx>=0.24.0",
+]
+
+[project.urls]
+Homepage = "https://translationsapi.com"
+Documentation = "https://github.com/translationsapi/sdk-python"
+Repository = "https://github.com/translationsapi/sdk-python"
+Issues = "https://github.com/translationsapi/sdk-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
